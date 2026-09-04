@@ -38,3 +38,28 @@ a {
 a:hover {
   text-decoration: underline;
 }
+/* Align task text and delete button nicely */
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+/* Style the X delete button */
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
